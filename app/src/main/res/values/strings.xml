@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Student GPA Calculator</string>
+    <string name="enter_maxim">
+
+Enter School Maximum Grade Point
+</string>
+    <string name="course_list">
+
+Enter Course Details
+</string>
+
+    <string name="course_titl">
+
+Course Title
+</string>
+
+    <string name="course_code">
+
+Course Code
+</string>
+
+    <string name="course_unit">
+
+Course Unit
+</string>
+
+    <string name="grade_obtai">
+
+Grade Obtained
+</string>
+
+    <string name="add">
+
+Add
+</string>
+    <string name="grade">Grade</string>
+    <string name="usedCC">BCD 101</string>
+    <string name="usedU">3</string>
+    <string name="usedG">A</string>
+    <string name="calculate">Calculate</string>
+    <string name="e_mail">Email</string>
+    <string name="password">Password</string>
+    <string name="ers">Enter Result Semester</string>
+    <string name="erl">Enter Result Level</string>
+    <string name="ery">Enter Result Year</string>
+
+</resources>

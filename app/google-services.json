@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "303123916818",
+    "firebase_url": "https://student-gpa-calculator.firebaseio.com",
+    "project_id": "student-gpa-calculator",
+    "storage_bucket": "student-gpa-calculator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303123916818:android:ed65df5c3a28b9eb",
+        "android_client_info": {
+          "package_name": "com.tech.royal_vee.studentgpacalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303123916818-qkeks35q6qt3rtiqfscfq6445e3u8m32.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tech.royal_vee.studentgpacalculator",
+            "certificate_hash": "1847541ea144590480ec2812c2cf73d3ac0a62d8"
+          }
+        },
+        {
+          "client_id": "303123916818-dg35t76t5kfua6nf7rarlop6ggak1dlp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrRrOiDMPcBvu7EFKevMT6msbcgrCQh9w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303123916818-dg35t76t5kfua6nf7rarlop6ggak1dlp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#D8EFD4"
+    android:layout_height="match_parent"
+    >
+
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="240dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="Sign Up"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:id="@+id/reg_fullname"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/reg_email"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp"
+        android:layout_alignStart="@+id/reg_fullname"
+        android:layout_height="wrap_content">
+
+    <EditText
+
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_email"
+        android:ems="10"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/reg_password"
+        android:layout_alignStart="@+id/reg_email"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="135dp"
+        android:layout_height="wrap_content">
+
+    <EditText
+
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/user_password"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+</RelativeLayout>
